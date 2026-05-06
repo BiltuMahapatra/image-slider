@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+.container {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  background-color: green;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 7px 25px rgba(21, 15, 15, 0.2);
+}
+.imagecontainer {
+  border-radius: 5px;
+  object-fit: cover;
+  display: flex;
+  transform: translateX(-00%);
+}
+
+.btn {
+  color: rgb(181, 238, 8);
+  position: absolute;
+  font-size: 60px;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.prev {
+  left: 10px;
+}
+.forw {
+  right: 10px;
+}
